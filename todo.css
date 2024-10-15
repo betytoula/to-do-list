@@ -11,22 +11,24 @@ body{
     font-family: "Montserrat", sans-serif;
      
 }
-header{
+ h1{
     text-align: center;
     margin:50px ;
-    font-size: 2rem;
+    font-size: 4rem;
 }
-.fa-sign-out-alt{
-    position: absolute;
-    top: 20px;
+#btn{
+    position: absolute; 
+    top: 20px; 
     right: 20px;
-    padding: 10px 20px;
-    background-color: #574f4f;
-    color: white;
+    background-color: #3e413e; 
+    color: white; 
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+   
 }
+
 .todolist{
     width: 600px;
     margin: auto;
